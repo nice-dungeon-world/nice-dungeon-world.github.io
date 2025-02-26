@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e0c107b187e2f85b",
+        "id": "7c13614c646957e4",
         "type": "tabs",
         "children": [
           {
-            "id": "c4aef2e43ffca64e",
+            "id": "8eb473a8b62dd636",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           },
           {
@@ -170,11 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "README.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for README"
+              "title": "File properties"
             }
           }
         ],
@@ -196,8 +189,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81ba4618df5aed52",
+  "active": "8eb473a8b62dd636",
   "lastOpenFiles": [
+    "_posts/2020-03-01-features.md",
+    "_posts/2020-03-01-how-to.md",
+    "_notes/Public/Welcome to the garden.md",
+    "_notes/Public/Markdown Rendered.md",
+    "_notes/Public/Hidden Note.md",
+    "_notes/Public/Credits.md",
     "README.md",
     "nice-dungeon-world.github.io/_notes/Public/Testing.md",
     "SearchData.json",
@@ -225,13 +224,7 @@
     "assets/img/5-how-to.png",
     "assets/img/2-how-to.png",
     "assets/img/4-how-to.png",
-    "_posts/2020-03-01-how-to.md",
-    "_posts/2020-03-01-features.md",
     "_notes/Public/Testing.md",
-    "_notes/Public/Welcome to the garden.md",
-    "_notes/Public/Markdown Rendered.md",
-    "_notes/Public/Hidden Note.md",
-    "_notes/Public/Credits.md",
     "vault/obsidian_templater_cheat_sheet.md",
     "vault/Alt Codes - Lettres accentuées & symboles.md",
     "vault/templates/jdr/classes&metiers/Races&espèces/__Race de départ__.md",
