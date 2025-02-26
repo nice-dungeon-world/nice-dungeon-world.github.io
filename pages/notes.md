@@ -2,7 +2,7 @@
 layout: Post
 permalink: /notes
 feedformat: card
-title: Digital Garden
+title: Articles
 ---
 
-The feed page shows all notes from `notes` folder. If you want to hide any notes from this feed, add `feed:hide` on note's Frontmatter. Eg:[[Hidden Note]]
+Cette page affiche toutes les notes du dossier `notes`. Certaines pages ne sont pas encore publiées grâce à l'utilisation de propriété `feed:hide` définie dans le Frontmatter de la note. Ex: [[Hidden Note]]
