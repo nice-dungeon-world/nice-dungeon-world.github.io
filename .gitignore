@@ -5,5 +5,13 @@ pages/tags.md
 _notes/.obsidian
 _notes/Public/.obsidian
 
+# Ignorer les dossiers du vault
 vault/**
+
+# Ignorer les fichiers du workspace Obsidian
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+
+# Ignorer les fichiers de conflits Obsidian
+.obsidian/*conflict*
