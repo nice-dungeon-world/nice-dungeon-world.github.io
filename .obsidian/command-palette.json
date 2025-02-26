@@ -1,0 +1,9 @@
+{
+  "pinned": [
+    "workspace:toggle-pin",
+    "app:show-debug-info",
+    "open-with-default-app:show",
+    "editor:toggle-fold",
+    "editor:fold-all"
+  ]
+}
