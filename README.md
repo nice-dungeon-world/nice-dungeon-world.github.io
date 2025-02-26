@@ -1,38 +1,43 @@
-# Jekyll Garden v 0.4!
-![Slide 4_3 - 1 (1)](https://user-images.githubusercontent.com/1788677/169704768-65c32d93-7884-47fa-b98c-bc8329acc6a7.png)
+# Nice Dungeon World FR
 
+Mon Vault Obsidian contenant toutes les ressources que j'utilise pour mes parties sur le sytème [Dungeon Word (FR)](http://dungeonworld.pbta.fr/).
 
-Jekyll Garden theme lets you publish your [Obsidian](https://obsidian.md/) vault (or a subset of it) as a Jekyll static website. The theme is markdown and Obsidian setup friendly. You can use your own server or Github page to set up your SSG. Check out the demo.
+Il contient un [wiki](https://nice-dungeon-world.github.io/) automatiquement déployé sur [GitHub Pages](https://pages.github.com/).
+Ce wiki est basé sur le [wiki français de Dungeon World](http://dungeonworld.pbta.fr/), complété par des traductions par mes soins de la version anglophone [Dungeon World](https://dungeon-world.com/), ainsi que sur la compilation de traductions, adaptations et créations des classes de personnages [disponible ici](https://www.scenariotheque.org/Document/info_jeu.php?f_id_jeu=484) dans [La Scénariothèque](https://www.scenariotheque.org/)
 
-<a href="https://www.buymeacoffee.com/hiran" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height= "48" width="173"></a>
+## Propulsé Par
 
-## Documents and links
--  [Demo website](https://jekyll-garden.github.io/)
--  [Personal Website](https://hiran.in/)
--  [Feature List](https://jekyll-garden.github.io/post/features)
--  [How to Setup](https://jekyll-garden.github.io/post/how-to)
+[Obsidian](https://obsidian.md/)
+[Jekyll Garden](https://jekyll-garden.github.io/)
+[GitHub Pages](https://pages.github.com/)
+[Dungeon World (FR)](http://dungeonworld.pbta.fr/)
+[La Scénariothèque](https://www.scenariotheque.org/)
 
-## Credits & Thanks
--  See [Credits page](https://jekyll-garden.github.io/credits)
+## Licenses FR
 
-## Contribution
+Le thème Jekyll Garden est disponible en open source sous les termes de [MIT License](http://opensource.org/licenses/MIT).
 
-To set up your environment to develop this theme, run `bundle install` after cloning this repository in your local machine.
+Le contenu des pages du wiki est placé sous les termes de la licence de [Dungeon World (FR)](http://dungeonworld.pbta.fr/) : [CC Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
 
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. `_notes` contain all atomic notes. If you want to use this for blog, add posts inside `_posts` folder, following standard Jekyll frontamtter.
+---
 
-### Hosting in a Docker Container
-For hosting on your local network, inside a docker container, install `docker` and `docker-compose` and run,
-```Terminal
-$ docker-compose up -d
-```
-> **Note**:-
-> 
-> This container is built upon on alpine based ruby image. There's an official Jekyll image available in docker hub which only support `amd64` images. You can opt to use that if you are running the container on an 64bit PC. If you want to run this on an ARM based system like Raspberry Pi, this would be a better option.
->
-> The directories which will be frequently modified, are mapped as local volumes so that any changes made to those will be immediately picked up by the server and built. If you fancy changing content in other folders regularly, feel free to add them to the `volumes` section in `docker-compose.yml` before deploying.
+# Nice Dungeon World
 
+My Obsidian Vault containing all the ressources I use in my [Dungeon World](https://dungeon-world.com/) games.
 
-## License
+The [wiki](https://nice-dungeon-world.github.io/) is auto-deployed to [GitHub Pages](https://pages.github.com/).
+It is the french version of the [Dungeon World french wiki](http://dungeonworld.pbta.fr/), with some of my translations from [Dungeon World](https://dungeon-world.com/)'s rule book, and the french compilation of the translations, adaptations, and creations of classes from the rule's book and compendium [available here](https://www.scenariotheque.org/Document/info_jeu.php?f_id_jeu=484) by [La Scénariothèque](https://www.scenariotheque.org/)
+
+## Powered by
+
+[Obsidian](https://obsidian.md/)
+[Jekyll Garden](https://jekyll-garden.github.io/)
+[GitHub Pages](https://pages.github.com/)
+[Dungeon World](https://dungeon-world.com/)
+[La Scénariothèque](https://www.scenariotheque.org/)
+
+## Licenses EN
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+The content of the wiki pages is available as open source under the terms of the [CC Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
