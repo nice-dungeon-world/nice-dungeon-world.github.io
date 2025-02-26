@@ -1,13 +1,10 @@
----
----
-
-/* 
+/*
 Copied from https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/mode-switcher.js
 https://github.com/derekkedziora/jekyll-demo
 Creative Commons Attribution 4.0 International License
 */
 
-let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
 let theme = sessionStorage.getItem('theme');
 
 const iconSun = "{{ site.baseurl }}/assets/img/sun.svg";
@@ -15,8 +12,12 @@ const iconMoon = "{{ site.baseurl }}/assets/img/moon.svg";
 
 
 function changeIconImgSrc(src) {
-	document.getElementById("theme-toggle-img").src = src;
-	document.getElementById("theme-toggle-img--mobile").src = src;
+	if (document.getElementById("theme-toggle-img")) {
+		document.getElementById("theme-toggle-img").src = src;
+
+	} else if (document.getElementById("theme-toggle-img--mobile")) {
+		document.getElementById("theme-toggle-img--mobile").src = src;
+	}
 }
 
 if (systemInitiatedDark.matches) {
@@ -26,15 +27,15 @@ if (systemInitiatedDark.matches) {
 }
 
 function prefersColorTest(systemInitiatedDark) {
-  if (systemInitiatedDark.matches) {
-  	document.documentElement.setAttribute('data-theme', 'dark');		
-   	changeIconImgSrc(iconMoon);
-   	sessionStorage.setItem('theme', '');
-  } else {
-  	document.documentElement.setAttribute('data-theme', 'light');
-    changeIconImgSrc(iconSun);
-    sessionStorage.setItem('theme', '');
-  }
+	if (systemInitiatedDark.matches) {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		changeIconImgSrc(iconMoon);
+		sessionStorage.setItem('theme', '');
+	} else {
+		document.documentElement.setAttribute('data-theme', 'light');
+		changeIconImgSrc(iconSun);
+		sessionStorage.setItem('theme', '');
+	}
 }
 systemInitiatedDark.addListener(prefersColorTest);
 
@@ -45,11 +46,11 @@ function modeSwitcher() {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
 		changeIconImgSrc(iconSun);
-	}	else if (theme === "light") {
+	} else if (theme === "light") {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
 		changeIconImgSrc(iconMoon);
-	} else if (systemInitiatedDark.matches) {	
+	} else if (systemInitiatedDark.matches) {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
 		changeIconImgSrc(iconSun);
