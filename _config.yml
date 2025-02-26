@@ -33,6 +33,10 @@ copyright:
   year: © 2025
   msg: Contents under CC-BY-NC
   link: https://www.creativecommons.org/licenses/by-nc/4.0/deed.en
+author:
+  name: Nicendredi
+  link: https://github.com/Nicendredi
+  type_link: (Github)
 
 # Set title and content for private & broken link tooltop
 privatelinks:
@@ -50,8 +54,8 @@ preferences:
     enabled: true
   backlinks:
     enabled: true
-# To enable a homepage, change the value to true and add content to _includes/Homepage.html
-# If enable : false, notes feed will be as homepage.
+  # To enable a homepage, change the value to true and add content to _includes/Homepage.html
+  # If enable : false, notes feed will be as homepage.
   homepage:
     enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
@@ -67,9 +71,9 @@ plugins:
 ## Enable Collections
 ## Suggested collects are "notes" "lists" and "blog"
 collections:
-    notes:
-      output: true
-      permalink: /note/:title
+  notes:
+    output: true
+    permalink: /note/:title
 
 markdown: kramdown
 
@@ -97,7 +101,6 @@ defaults:
     values:
       layout: Post
       content-type: notes
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
