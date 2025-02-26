@@ -29,9 +29,19 @@
 {%- endcomment -%}
 <footer>
     {%- if site.copyright.msg != nil and site.copyright.msg != empty and site.copyright.msg != null -%}
-    <div id="copyright">
-        <p id="copyright-notice"> {{site.copyright.year}} • <a href="{{site.copyright.link}}" target="_blank">{{site.copyright.msg}}</a> •
-            <a href="/credits">Credits</a> </p>
-    </div>
+    <section id="copyright">
+        <p id="copyright-notice"> {{site.copyright.year}} • <a href="{{site.copyright.link}}" target="_blank">{{site.copyright.msg}}</a>
+            •
+            <a href="/credits">Credits</a>
+        </p>
+    </section>
     {%- endif -%}
+    <section>
+        <p>
+            Powered by
+            <a href="https://jekyll-garden.github.io/" target="_blank">
+                Jekyll Garden
+            </a>
+        </p>
+    </section>
 </footer>
