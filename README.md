@@ -7,11 +7,11 @@ Ce wiki est basé sur le [wiki français de Dungeon World](http://dungeonworld.p
 
 ## Propulsé Par
 
-[Obsidian](https://obsidian.md/)
-[Jekyll Garden](https://jekyll-garden.github.io/)
-[GitHub Pages](https://pages.github.com/)
-[Dungeon World (FR)](http://dungeonworld.pbta.fr/)
-[La Scénariothèque](https://www.scenariotheque.org/)
+- [Obsidian](https://obsidian.md/)
+- [Jekyll Garden](https://jekyll-garden.github.io/)
+- [GitHub Pages](https://pages.github.com/)
+- [Dungeon World (FR)](http://dungeonworld.pbta.fr/)
+- [La Scénariothèque](https://www.scenariotheque.org/)
 
 ## Licenses FR
 
@@ -30,11 +30,11 @@ It is the french version of the [Dungeon World french wiki](http://dungeonworld.
 
 ## Powered by
 
-[Obsidian](https://obsidian.md/)
-[Jekyll Garden](https://jekyll-garden.github.io/)
-[GitHub Pages](https://pages.github.com/)
-[Dungeon World](https://dungeon-world.com/)
-[La Scénariothèque](https://www.scenariotheque.org/)
+- [Obsidian](https://obsidian.md/)
+- [Jekyll Garden](https://jekyll-garden.github.io/)
+- [GitHub Pages](https://pages.github.com/)
+- [Dungeon World](https://dungeon-world.com/)
+- [La Scénariothèque](https://www.scenariotheque.org/)
 
 ## Licenses EN
 
