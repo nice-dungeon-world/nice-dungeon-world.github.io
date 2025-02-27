@@ -1,3 +1,11 @@
+---
+jdr_category: Classe
+jdr_class_type: Monstre
+title: Dragon
+feed: show
+date: 2025-02-27
+---
+
 # Dragon
 
 ![[Dragon.png]]
