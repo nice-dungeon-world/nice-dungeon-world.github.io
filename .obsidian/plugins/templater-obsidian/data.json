@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "vault/templates",
+  "templates_folder": "_notes/300 Templates",
   "templates_pairs": [
     [
       "",
@@ -15,12 +15,16 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "nice-dungeon-world.github.io/_notes",
-      "template": "vault/templates/__note__.md"
+      "folder": "_notes",
+      "template": "_notes/300 Templates/__note__.md"
     },
     {
       "folder": "_notes/Public/classes",
       "template": "vault/templates/jdr/classes&metiers/__classe__.md"
+    },
+    {
+      "folder": "",
+      "template": ""
     }
   ],
   "enable_file_templates": false,
