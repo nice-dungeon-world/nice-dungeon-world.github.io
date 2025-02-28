@@ -16,13 +16,13 @@ Mais vos prouesses tactiques ne se limitent pas à l'art de la guerre et vous sa
 
 ### Peuple
 
-#### Dragon De Feu
+#### Dragon de feu
 
 Votre [[Dragon#Souffle de dragon]] est fait de lave volcanique. Ajoutez-y le marquer [[Brûlant]]. Quand vous entrez dans une région, vous sentez instinctivement où se trouve les plus grand trésor.
 
 #### Maître des nuées
 
-Votre [[Dragon#Souffle de dragon]] est pareil à un orage déchaîné. Ajoutez-y le marquer [[Foudroyant]]. Quand quelqu'un réussi à vous [[Aider|aider]] (7+), il bénéficie de +1 [[À suivre|à suivre]]/
+Votre [[Dragon#Souffle de dragon]] est pareil à un orage déchaîné. Ajoutez-y le marquer [[Foudroyant]]. Quand quelqu'un réussi à vous [[Aider]] (7+), il bénéficie de +1 [[À suivre]].
 
 #### Seigneur d'acier
 
@@ -44,15 +44,15 @@ Votre [[Dragon#Souffle de dragon]] est une fumée acide. Ajoutez-y le marqueur [
 
 ### Souffle de dragon
 
-Quand vous crachez un flot de destruction élémentaire (portée [[Courte|courte]]), lancez 2d6+[[CON]]. Sur 7+, infligez vos [[Dégâts|dégâts]] ([[ignore l'armure]]) à toutes les cibles de la zone ciblée. Sur 10+, choisissez une option. Sur 7-9, choisissez-en deux : 
+Quand vous crachez un flot de destruction élémentaire (portée [[Courte]]), lancez 2d6+[[CON]]. Sur 7+, infligez vos [[Dégâts]] ([[Ignore l'armure]]) à toutes les cibles de la zone ciblée. Sur 10+, choisissez une option. Sur 7-9, choisissez-en deux :
 
-- Votre souffle n'est pas aussi puissant que vous l'espériez : -1d4 [[Dégâts|dégâts]]
+- Votre souffle n'est pas aussi puissant que vous l'espériez : -1d4 [[Dégâts]]
 - Vous ne pouvez plus utiliser votre [[Dragon#Souffle de dragon]] tant que vous n'aurez pas pris quelques minutes pour vous reposer
-- Vous causez des dommages collatéraux indésirables ou vous exposez à un danger (au choix du [[Maître du Jeu|MJ]])
+- Vous causez des dommages collatéraux indésirables ou vous exposez à un danger (au choix du [[Maître du Jeu]])
 
 ### Vol de dragon
 
-Quand vous effectuez une manœuvre aérienne difficile, lancez 2d6+[[DEX]]. Sur 10+, tout se passe bien. Sur 7-9, choisissez une option : 
+Quand vous effectuez une manœuvre aérienne difficile, lancez 2d6+[[DEX]]. Sur 10+, tout se passe bien. Sur 7-9, choisissez une option :
 
 - Votre manœuvre ne réussit pas comme prévu
 - Votre atterrissage brutal entraînes des dommages collatéraux ou vous expose à un danger
@@ -60,17 +60,17 @@ Quand vous effectuez une manœuvre aérienne difficile, lancez 2d6+[[DEX]]. Sur 
 
 ### Crocs et griffes
 
-Vous êtes de [[Grand|grande]] taille (à peut près aussi gros qu'une charrette). Vous ne pouvez pas porter d'arme, d'armure ou d'équipement faits pour les humanoïdes. Vos armes naturelles (dents, griffes, …) sont considérées comme des armes létales avec le marquer [[Proche]]. Vos évailles vous donnent une [[Armure|armure]] de 2. Quand une action vous demande de dépenser une [[Rations|ration]], vous devez dévorer une créature (au minimum de taille humaine).
+Vous êtes de [[Grand]] taille (à peut près aussi gros qu'une charrette). Vous ne pouvez pas porter d'arme, d'armure ou d'équipement faits pour les humanoïdes. Vos armes naturelles (dents, griffes, …) sont considérées comme des armes létales avec le marquer [[Proche]]. Vos évailles vous donnent une [[Armure]] de 2. Quand une action vous demande de dépenser une [[Rations]], vous devez dévorer une créature (au minimum de taille humaine).
 
 ### Présence terrifiante
 
-Quand vous tentez d'effrayer des créatures inférieures, lancez 2d6+[[CHA]]. Sur 7+, elles choisissent entre : 
+Quand vous tentez d'effrayer des créatures inférieures, lancez 2d6+[[CHA]]. Sur 7+, elles choisissent entre :
 
 - S'aplatir devant votre puissance
 - Fuir complétement terrifiée
 - Dépasser leur peur et vous attaquer
 
-Sur 10+, vous gagnez aussi +1 [[À suivre|à suivre]] contre elles. Sur 6-, les créatures font ce qu'elles souhaitent et vous avec -1 [[À suivre|à suivre]] contre elles.
+Sur 10+, vous gagnez aussi +1 [[À suivre]] contre elles. Sur 6-, les créatures font ce qu'elles souhaitent et vous avec -1 [[À suivre]] contre elles.
 
 ## [[Équipement]] de départ
 
