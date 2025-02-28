@@ -18,21 +18,21 @@ Mais vos prouesses tactiques ne se limitent pas à l'art de la guerre et vous sa
 
 #### Dragon De Feu
 
-Votre [[Souffle de dragon|souffle de dragon]] est fait de lave volcanique. Ajoutez-y le marquer [[Brûlant]]. Quand vous entrez dans une région, vous sentez instinctivement où se trouve les plus grand trésor.
+Votre [[#Souffle de dragon]] est fait de lave volcanique. Ajoutez-y le marquer [[Brûlant]]. Quand vous entrez dans une région, vous sentez instinctivement où se trouve les plus grand trésor.
 
 #### Maître des nuées
 
-Votre [[Souffle de dragon|souffle de dragon]] est pareil à un orage déchaîné. Ajoutez-y le marquer [[Foudroyant]]. Quand quelqu'un réussi à vous [[Aider|aider]] (7+), il bénéficie de +1 [[À suivre|à suivre]]/
+Votre [[#Souffle de dragon]] est pareil à un orage déchaîné. Ajoutez-y le marquer [[Foudroyant]]. Quand quelqu'un réussi à vous [[Aider|aider]] (7+), il bénéficie de +1 [[À suivre|à suivre]]/
 
 #### Seigneur d'acier
 
-Votre [[Souffle de dragon|souffle de dragon]] est un blizzard glacé. Ajoutez-y le marquer [[Glaçant]]. Ajoutez cette question à la liste de l'action [[Discerner la réalité]] :
+Votre [[#Souffle de dragon]] est un blizzard glacé. Ajoutez-y le marquer [[Glaçant]]. Ajoutez cette question à la liste de l'action [[Discerner la réalité]] :
 
 - Qu'est-ce qui est le plus vulnérable ici ?
 
 #### Ver noir
 
-Votre [[Souffle de dragon|souffle de dragon]] est une fumée acide. Ajoutez-y le marqueur [[Acide]]. Vous êtes coriace et bénéficiez d'un bonus de +1 à l'action [[Dernier soupir]].
+Votre [[#Souffle de dragon]] est une fumée acide. Ajoutez-y le marqueur [[Acide]]. Vous êtes coriace et bénéficiez d'un bonus de +1 à l'action [[Dernier soupir]].
 
 ### Exemples de [[Liens]]
 
@@ -47,7 +47,7 @@ Votre [[Souffle de dragon|souffle de dragon]] est une fumée acide. Ajoutez-y le
 Quand vous crachez un flot de destruction élémentaire (portée [[Courte|courte]]), lancez 2d6+[[CON]]. Sur 7+, infligez vos [[Dégâts|dégâts]] ([[ignore l'armure]]) à toutes les cibles de la zone ciblée. Sur 10+, choisissez une option. Sur 7-9, choisissez-en deux : 
 
 - Votre souffle n'est pas aussi puissant que vous l'espériez : -1d4 [[Dégâts|dégâts]]
-- Vous ne pouvez plus utiliser votre [[Souffle de dragon]] tant que vous n'aurez pas pris quelques minutes pour vous reposer
+- Vous ne pouvez plus utiliser votre [[#Souffle de dragon]] tant que vous n'aurez pas pris quelques minutes pour vous reposer
 - Vous causez des dommages collatéraux indésirables ou vous exposez à un danger (au choix du [[Maître du Jeu|MJ]])
 
 ### Vol de dragon
