@@ -82,13 +82,49 @@
             {%- elsif url == empty -%}
                 {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
             {%- else -%}
-                    {%- assign post = site.notes | where: 'title',title -%}
+                    {%- assign title_with_heading = title | split: heading_link_delimiter -%}
+                    {%- assign post = site.notes | where: 'title',title_with_heading[0] -%}
                     {%- if post[0].title == nil -%}
-                    {%- assign post = site.posts | where: 'title',title -%}
+                        {%- assign post = site.posts | where: 'title',title_with_heading[0] -%}
+                    {%- endif -%}
+
+                    {%- assign heading_split = url | split: heading_link_delimiter -%}
+                    {%- assign heading_slug = '"' | append: heading_split[1] | append: '">' -%}
+                    {%- assign heading_title = title_with_heading[1] -%}
+                    {%- if heading_title != nil -%}
+                        {%- assign title = heading_title -%}
                     {%- endif -%}
                     {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
+                    {%- if heading_title != nil -%}
+
+                        {%- assign printable_excerpt_build = post[0].content | markdownify | split: heading_slug -%}
+                        {%- assign printable_excerpt_build = printable_excerpt_build[1] | split: '>' -%}
+                        {%- assign printable_excerpt_build_2 = '' -%}
+                        {%- for item in printable_excerpt_build -%}
+                            {%- if forloop.index0 == 0 -%}
+                                {%- continue -%}
+                            {%- endif -%}
+                            {%- assign printable_excerpt_build_2 = printable_excerpt_build_2 | append: item | append: '>' -%}
+                        {%- endfor -%}
+                        {%- assign printable_excerpt_build = printable_excerpt_build_2 | split: '<h' -%}
+                        {%- assign excerpt = printable_excerpt_build[0] | markdownify | strip_html | truncate: 200 | newline_to_br -%}
+
+                    {%- endif -%}
+
                     {%- if site.preferences.pagepreview.enabled -%}
-                        {%- assign link_text = '<span class="tooltip"><a href="' |append: {{site.baseurl}} | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
+                        {%- assign link_text = '<span class="tooltip"><a href="' |append: {{site.baseurl}} | append: url | append: '">' -%}
+                        {%- if heading_title == nil -%}
+                            {%- assign link_text = link_text | append: title -%}
+                        {%- else -%}
+                            {%- assign link_text = link_text | append: heading_title -%}
+                        {%- endif -%}
+                        {%- assign link_text = link_text | append: '</a><span class="right bottom"><span class="tooltip-title">' -%}
+                        {%- if heading_title == nil -%}
+                            {%- assign link_text = link_text | append: title -%}
+                        {%- else -%}
+                            {%- assign link_text = link_text | append: heading_title -%}
+                        {%- endif -%}
+                        {%- assign link_text = link_text | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
                     {%- else -%}
                         {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: title | append: '</a></span>' -%}
                     {%- endif -%}
