@@ -6,9 +6,7 @@ feed: show
 date: 2025-02-27
 ---
 
-# Dragon
-
-![[Dragon.png]]
+![Dragon jaune et vert](/assets/img/classes/monstres/Dragon.png)
 
 Puissante et impressionnante créature à l'appétit féroce. Vous inspirez la crainte aux faibles, et l'intérêt des puissants ou des fous, voire les deux.
 Que ce soit en survolant le champ de bataille, en fondant sur vos ennemis avec griffes et crocs sortis, ou crachant un flot de destruction élémentaire sur tout ce qui a le malheur de se dresser sur votre route, vous êtes un adversaire terrifiant par votre puissance et ingéniosité au combat.
