@@ -44,13 +44,14 @@
                 {%- assign internal_link = itemparts[0] | split:heading_link_delimiter -%}
                 {%- assign external_link = itemparts[0] | split:external_link_delimiter -%}
                 {%- assign sidenote = itemparts[0] | split:sidenote_delimiter -%}
-            
+
                 {%- if external_link[1] == nil -%}
                     {%- assign internal_title_link = internal_link[0] -%}
                     {%- assign heading_slug = '' -%}
                     {%- unless internal_link[1] == nil -%}
                         {%- assign internal_title_link = internal_link[0] | append: heading_link_delimiter | append: internal_link[1] -%}
-                        {%- assign heading_slug = heading_link_delimiter | append: internal_link[1] | slugify -%}
+                        {%- assign heading_slug = internal_link[1] | slugify -%}
+                        {%- assign heading_slug = heading_link_delimiter | append: heading_slug -%}
                     {%- endunless -%}
 
                     {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_title_link -%}
@@ -65,14 +66,14 @@
                 {%- endif -%}
             {%- endif -%}
         {%- endfor -%}
-    
+
         {%- assign internal_url_array = internal_urls | split:link_joiner_delimiter -%}
         {%- assign internal_link_array = internal_links | split:link_joiner_delimiter -%}
 
         {%- assign external_url_array = external_urls | split:link_joiner_delimiter -%}
         {%- assign external_link_array = external_links | split:link_joiner_delimiter -%}
 
-    
+
         {%- assign replaced_content = content -%}
         {%- for title in internal_link_array -%}
             {%- assign url = internal_url_array[forloop.index0] -%}
