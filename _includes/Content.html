@@ -94,7 +94,7 @@
                     {%- if heading_title != nil -%}
                         {%- assign title = heading_title -%}
                     {%- endif -%}
-                    {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
+                    {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 400 | newline_to_br -%}
                     {%- if heading_title != nil -%}
 
                         {%- assign printable_excerpt_build = post[0].content | markdownify | split: heading_slug -%}
@@ -107,7 +107,7 @@
                             {%- assign printable_excerpt_build_2 = printable_excerpt_build_2 | append: item | append: '>' -%}
                         {%- endfor -%}
                         {%- assign printable_excerpt_build = printable_excerpt_build_2 | split: '<h' -%}
-                        {%- assign excerpt = printable_excerpt_build[0] | markdownify | strip_html | truncate: 200 | newline_to_br -%}
+                        {%- assign excerpt = printable_excerpt_build[0] | markdownify | strip_html | truncate: 400 | newline_to_br -%}
 
                     {%- endif -%}
 
