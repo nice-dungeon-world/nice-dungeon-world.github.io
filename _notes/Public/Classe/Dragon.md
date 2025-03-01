@@ -32,7 +32,7 @@ Votre [[Dragon#Souffle de dragon]] est un blizzard glacé. Ajoutez-y le marquer 
 
 #### Ver noir
 
-Votre [[Dragon#Souffle de dragon]] est une fumée acide. Ajoutez-y le marqueur [[Acide]]. Vous êtes coriace et bénéficiez d'un bonus de +1 à l'action [[Dernier soupir]].
+Votre [[Dragon#Souffle de dragon]] est une fumée acide. Ajoutez-y le marqueur [[Acide]]. Vous êtes coriace et bénéficiez d'un bonus de +1 à l'action [[../Action/Dernier soupir]].
 
 ### Exemples de [[Liens]]
 
