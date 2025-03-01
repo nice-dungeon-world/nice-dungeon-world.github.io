@@ -35,35 +35,45 @@
     {%- if site.preferences.wiki_style_link.enabled -%}
         {%- assign content_array = content | split:'[[' -%}
         {%- assign external_link_delimiter = '::' -%}
+        {%- assign heading_link_delimiter = '#' -%}
 
         {%- assign link_joiner_delimiter = '$@' -%}
         {%- for item in content_array -%}
             {%- if forloop.index > 1 -%}
                 {%- assign itemparts = item | split:']]' -%}
-                {%- assign internal_link = itemparts[0] -%}
+                {%- assign internal_link = itemparts[0] | split:heading_link_delimiter -%}
                 {%- assign external_link = itemparts[0] | split:external_link_delimiter -%}
                 {%- assign sidenote = itemparts[0] | split:sidenote_delimiter -%}
-            
+
                 {%- if external_link[1] == nil -%}
-                    {%- assign result_posts = site.posts | where: 'title',itemparts[0] -%}  
-                    {%- assign result_posts = site.notes | where: 'title',itemparts[0] -%}
-                    {%- assign result_pages = site.pages | where: 'title',itemparts[0] -%}
-                    {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_link -%}
-                    {%- assign internal_urls = internal_urls | append: link_joiner_delimiter | append: result_posts[0].url | append: result_pages[0].url -%}
+                    {%- assign internal_title_link = internal_link[0] -%}
+                    {%- assign heading_slug = '' -%}
+                    {%- unless internal_link[1] == nil -%}
+                        {%- assign internal_title_link = internal_link[0] | append: heading_link_delimiter | append: internal_link[1] -%}
+                        {%- assign heading_slug = internal_link[1] | slugify -%}
+                        {%- assign heading_slug = heading_link_delimiter | append: heading_slug -%}
+                    {%- endunless -%}
+
+                    {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_title_link -%}
+
+                    {%- assign result_posts = site.posts | where: 'title',internal_link[0] -%}
+                    {%- assign result_posts = site.notes | where: 'title',internal_link[0] -%}
+                    {%- assign result_pages = site.pages | where: 'title',internal_link[0] -%}
+                    {%- assign internal_urls = internal_urls | append: link_joiner_delimiter | append: result_posts[0].url | append: result_pages[0].url | append: heading_slug -%}
                 {%- else -%}
                     {%- assign external_links = external_links | append: link_joiner_delimiter | append: external_link[0] -%}
                     {%- assign external_urls = external_urls | append: link_joiner_delimiter | append: external_link[1] -%}
                 {%- endif -%}
             {%- endif -%}
         {%- endfor -%}
-    
+
         {%- assign internal_url_array = internal_urls | split:link_joiner_delimiter -%}
         {%- assign internal_link_array = internal_links | split:link_joiner_delimiter -%}
 
         {%- assign external_url_array = external_urls | split:link_joiner_delimiter -%}
         {%- assign external_link_array = external_links | split:link_joiner_delimiter -%}
 
-    
+
         {%- assign replaced_content = content -%}
         {%- for title in internal_link_array -%}
             {%- assign url = internal_url_array[forloop.index0] -%}
@@ -72,13 +82,49 @@
             {%- elsif url == empty -%}
                 {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
             {%- else -%}
-                    {%- assign post = site.notes | where: 'title',title -%}
+                    {%- assign title_with_heading = title | split: heading_link_delimiter -%}
+                    {%- assign post = site.notes | where: 'title',title_with_heading[0] -%}
                     {%- if post[0].title == nil -%}
-                    {%- assign post = site.posts | where: 'title',title -%}
+                        {%- assign post = site.posts | where: 'title',title_with_heading[0] -%}
                     {%- endif -%}
-                    {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
+
+                    {%- assign heading_split = url | split: heading_link_delimiter -%}
+                    {%- assign heading_slug = '"' | append: heading_split[1] | append: '">' -%}
+                    {%- assign heading_title = title_with_heading[1] -%}
+                    {%- if heading_title != nil -%}
+                        {%- assign title = heading_title -%}
+                    {%- endif -%}
+                    {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 400 | newline_to_br -%}
+                    {%- if heading_title != nil -%}
+
+                        {%- assign printable_excerpt_build = post[0].content | markdownify | split: heading_slug -%}
+                        {%- assign printable_excerpt_build = printable_excerpt_build[1] | split: '>' -%}
+                        {%- assign printable_excerpt_build_2 = '' -%}
+                        {%- for item in printable_excerpt_build -%}
+                            {%- if forloop.index0 == 0 -%}
+                                {%- continue -%}
+                            {%- endif -%}
+                            {%- assign printable_excerpt_build_2 = printable_excerpt_build_2 | append: item | append: '>' -%}
+                        {%- endfor -%}
+                        {%- assign printable_excerpt_build = printable_excerpt_build_2 | split: '<h' -%}
+                        {%- assign excerpt = printable_excerpt_build[0] | markdownify | strip_html | truncate: 400 | newline_to_br -%}
+
+                    {%- endif -%}
+
                     {%- if site.preferences.pagepreview.enabled -%}
-                        {%- assign link_text = '<span class="tooltip"><a href="' |append: {{site.baseurl}} | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
+                        {%- assign link_text = '<span class="tooltip"><a href="' |append: {{site.baseurl}} | append: url | append: '">' -%}
+                        {%- if heading_title == nil -%}
+                            {%- assign link_text = link_text | append: title -%}
+                        {%- else -%}
+                            {%- assign link_text = link_text | append: heading_title -%}
+                        {%- endif -%}
+                        {%- assign link_text = link_text | append: '</a><span class="right bottom"><span class="tooltip-title">' -%}
+                        {%- if heading_title == nil -%}
+                            {%- assign link_text = link_text | append: title -%}
+                        {%- else -%}
+                            {%- assign link_text = link_text | append: heading_title -%}
+                        {%- endif -%}
+                        {%- assign link_text = link_text | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
                     {%- else -%}
                         {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: title | append: '</a></span>' -%}
                     {%- endif -%}
