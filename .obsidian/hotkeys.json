@@ -64,5 +64,14 @@
       ],
       "key": "Tab"
     }
+  ],
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
   ]
 }
