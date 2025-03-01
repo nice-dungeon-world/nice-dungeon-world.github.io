@@ -4,13 +4,13 @@ feed: show
 date : 01-02-2021
 ---
 
-
 This page contains a quick reference to all markdown properties. 90% of this was part of the [Simple Jekyll](https://github.com/raghuveerdotnet/simply-jekyll) theme, which we forked to built this one. Great job, makers!
 
 By the way, how did you reach this page?
+
 From backlink under [[Hidden Note] or from feed, along with [[Welcome to the garden]]?
 
-* TOC
+- TOC
 {:toc}
 
 {:#heading}
@@ -103,14 +103,16 @@ Strikethrough uses two tildes. ~~Scratch this.~~
     You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
     To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+
     Note that this line is separate, but within the same paragraph.⋅⋅
+
     (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
-* Unordered list can use asterisks
+- Unordered list can use asterisks
 
 - Or minuses
 
-+ Or pluses
+- Or pluses
 
 {:#links}
 
@@ -157,7 +159,9 @@ Some text to show that the reference links can follow later.
 Or leave it empty and use the [link text itself].
 
 URLs and URLs in angle brackets will automatically get turned into links.
+
 <http://www.example.com> or <http://www.example.com> and sometimes
+
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -173,6 +177,7 @@ Some text to show that the reference links can follow later.
 ---
 
 From what I understood, Jekyll doesn't support source files inside collection folders like `_notes`.
+
 Currently, what I do is, I upload images and attachments manually to `/assets/img/` and use
 
 ```markdown
@@ -256,6 +261,7 @@ But let's throw in a <b>tag</b>.
 ---
 
 You can write math expressions using the $$\LateX$$
+
  [markup language](https://en.wikipedia.org/wiki/LaTeX) between double dollar signs : \$$…$$. They can be written inline or as a single block.
 
 For example,
@@ -304,13 +310,15 @@ Colons can be used to align columns.
 | zebra stripes | are neat      |    $1 |
 
 There must be at least 3 dashes separating each header cell.
+
 The outer pipes (|) are optional, and you don't need to make the
+
 raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty
---- | --- | ---
-_Still_ | `renders` | __nicely__
-1 | 2 | 3
+;Markdown | Less | Pretty;
+;--- | --- | ---;
+;_Still_ | `renders` | __nicely__;
+;1 | 2 | 3;
 
 {:#blockquotes}
 

@@ -9,7 +9,9 @@ date: 2025-02-27
 ![Dragon jaune et vert](/assets/img/classes/monstres/Dragon.png)
 
 Puissante et impressionnante créature à l'appétit féroce. Vous inspirez la crainte aux faibles, et l'intérêt des puissants ou des fous, voire les deux.
+
 Que ce soit en survolant le champ de bataille, en fondant sur vos ennemis avec griffes et crocs sortis, ou crachant un flot de destruction élémentaire sur tout ce qui a le malheur de se dresser sur votre route, vous êtes un adversaire terrifiant par votre puissance et ingéniosité au combat.
+
 Mais vos prouesses tactiques ne se limitent pas à l'art de la guerre et vous savez quand votre présence imposante vous donne un avantage, ou quand une approche plus subtile vous permettra d'atteindre votre objectif.
 
 ## Historique Et Action De Peuple
@@ -32,7 +34,7 @@ Votre [[Dragon#Souffle de dragon]] est un blizzard glacé. Ajoutez-y le marquer 
 
 #### Ver noir
 
-Votre [[Dragon#Souffle de dragon]] est une fumée acide. Ajoutez-y le marqueur [[Acide]]. Vous êtes coriace et bénéficiez d'un bonus de +1 à l'action [[../Action/Dernier soupir]].
+Votre [[Dragon#Souffle de dragon]] est une fumée acide. Ajoutez-y le marqueur [[Acide]]. Vous êtes coriace et bénéficiez d'un bonus de +1 à l'action [[Dernier soupir]].
 
 ### Exemples de [[Liens]]
 
@@ -72,10 +74,14 @@ Quand vous tentez d'effrayer des créatures inférieures, lancez 2d6+[[CHA]]. Su
 
 Sur 10+, vous gagnez aussi +1 [[À suivre]] contre elles. Sur 6-, les créatures font ce qu'elles souhaitent et vous avec -1 [[À suivre]] contre elles.
 
-## [[Équipement]] de départ
+## [[Équipement]] De départ
 
 Choisissez :
 
 - Une cicatrice, souvenir d'une vieille bataille
 - Un partie du cœur d'une autre créature, liée à vous par une ancienne magie
 - Une selle permettant d'emporter avec vous un guerrier méritant dans la bataille
+
+---
+
+[Fiche de personnage](/assets/pdf/Classe/dungeonWorld_Dragon.pdf)

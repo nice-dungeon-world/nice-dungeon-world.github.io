@@ -6,12 +6,12 @@ Vous pouvez aussi choisir de gagner cette spécialisation dès la création de v
 
 # Actions de départ
 
-**Quand vous gagnez cette spécialisation, <% tp.file.cursor(3) %>**
+__Quand vous gagnez cette spécialisation, <% tp.file.cursor(3) %>__
 
 ## <% tp.file.cursor(4) %>
 
 # Actions avancées
 
-**Quand vous [[Monter de niveau|gagnez un niveau]], vous pouvez choisir l'une de ces actions au lieu d'une action de votre classe :**
+__Quand vous [[Monter de niveau|gagnez un niveau]], vous pouvez choisir l'une de ces actions au lieu d'une action de votre classe :__
 
 ## <% tp.file.cursor(5) %>

@@ -6,3 +6,4 @@ permalink:
 format:
 ---
 
+<% tp.file.cursor(1) %>
