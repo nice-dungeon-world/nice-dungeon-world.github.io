@@ -4,9 +4,8 @@ jdr_class_type: Monstre
 title: Dragon
 feed: show
 date: 2025-02-27
+img: /assets/img/classes/monstres/Dragon.png
 ---
-
-![Dragon jaune et vert](/assets/img/classes/monstres/Dragon.png)
 
 Puissante et impressionnante créature à l'appétit féroce. Vous inspirez la crainte aux faibles, et l'intérêt des puissants ou des fous, voire les deux.
 
@@ -50,7 +49,7 @@ Quand vous crachez un flot de destruction élémentaire (portée [[Courte]]), la
 
 - Votre souffle n'est pas aussi puissant que vous l'espériez : -1d4 [[Dégâts]]
 - Vous ne pouvez plus utiliser votre [[Dragon#Souffle de dragon]] tant que vous n'aurez pas pris quelques minutes pour vous reposer
-- Vous causez des dommages collatéraux indésirables ou vous exposez à un danger (au choix du [[Maître du Jeu]])
+- Vous causez des dommages collatéraux indésirables ou vous exposez à un danger (au choix du [[MJ]])
 
 ### Vol de dragon
 
@@ -84,4 +83,4 @@ Choisissez :
 
 ---
 
-[Fiche de personnage](/assets/pdf/Classe/dungeonWorld_Dragon.pdf)
+[Fiche de personnage](dungeonWorld_Dragon.pdf)
