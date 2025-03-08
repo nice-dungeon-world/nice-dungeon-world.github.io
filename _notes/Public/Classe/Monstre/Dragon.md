@@ -61,7 +61,7 @@ Quand vous effectuez une manœuvre aérienne difficile, lancez 2d6+[[DEX]]. Sur 
 
 ### Crocs et griffes
 
-Vous êtes de [[Grand]] taille (à peut près aussi gros qu'une charrette). Vous ne pouvez pas porter d'arme, d'armure ou d'équipement faits pour les humanoïdes. Vos armes naturelles (dents, griffes, …) sont considérées comme des armes létales avec le marquer [[Proche]]. Vos évailles vous donnent une [[Armure]] de 2. Quand une action vous demande de dépenser une [[Rations]], vous devez dévorer une créature (au minimum de taille humaine).
+Vous êtes de taille [[Grande]] (à peu près aussi gros qu'une charrette). Vous ne pouvez pas porter d'arme, d'armure ou d'équipement faits pour les humanoïdes. Vos armes naturelles (dents, griffes, …) sont considérées comme des armes létales avec le marquer [[Proche]]. Vos écailles vous donnent une [[Armure]] de 2. Quand une action vous demande de dépenser une [[Rations]], vous devez dévorer une créature (au minimum de taille humaine).
 
 ### Présence terrifiante
 
