@@ -112,7 +112,7 @@ Vous êtes de taille [[Grande]] (à peu près aussi gros qu'une charrette). Vous
 
 ### Métamorphe
 
-__Replace Métamorphe amateur__
+__Replace [[Jeune Dragon#Métamorphe amateur]]__
 
 Vous êtes capable de prendre à volonté la forme d'un humanoïde ou d'un animal. Vous gardez vos caractéristiques, mais vous perdez toutes les actions qui dépendent de votre forme draconique jusqu'à ce que vous repreniez votre forme de dragon. Le MJ vous indiquera les éventuels avantages ou limitations de votre nouveau corps.
 
