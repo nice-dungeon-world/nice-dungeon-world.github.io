@@ -7,7 +7,7 @@ date: 2025-03-08
 img: /assets/img/classes/monstres/white_dragon_hatchling_by_dashase_d5nco89-414w-2x.jpg
 ---
 
-![[white_dragon_hatchling_by_dashase_d5nco89-414w-2x.jpg]]
+![Jeune dragon de glace](/assets/img/classes/monstres/white_dragon_hatchling_by_dashase_d5nco89-414w-2x.jpg)
 
 Puissante et impressionnante créature à l'appétit féroce. Les dragons inspirent la crainte aux faibles, et l'intérêt des puissants ou des fous, voire les deux.
 
