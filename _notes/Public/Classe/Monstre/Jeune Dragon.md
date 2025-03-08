@@ -1,9 +1,9 @@
 ---
 jdr_category: Classe
 jdr_class_type: Monstre
-title: Dragon
+title: Jeune Dragon
 feed: show
-date: 2025-02-27
+date: 2025-03-08
 img: /assets/img/classes/monstres/white_dragon_hatchling_by_dashase_d5nco89-414w-2x.jpg
 ---
 
