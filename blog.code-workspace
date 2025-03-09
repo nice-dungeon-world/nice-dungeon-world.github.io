@@ -7,6 +7,29 @@
 	"settings": {
 		"browser-preview.startUrl": "localhost:4000",
 		"editor.fontSize": 12,
-		"editor.fontFamily": "'Source Code Pro', 'Fira Code', Consolas, 'Courier New', monospace"
+		"editor.fontFamily": "'Source Code Pro', 'Fira Code', Consolas, 'Courier New', monospace",
+		"files.associations": {
+			"*.html": "liquid",
+			"*.js": "liquid-javascript",
+			"*.css": "liquid-css",
+			"*.scss": "liquid-scss"
+		},
+		"markdownlint.lintWorkspaceGlobs": [
+			"**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
+			"!**/*.code-search",
+			"!**/bower_components",
+			"!**/node_modules",
+			"!**/.git",
+			"!**/vendor",
+			"**/*.{md.liquid,mkd.liquid,mdwn.liquid,mdown.liquid,markdown.liquid,markdn.liquid,mdtxt.liquid,mdtext.liquid,workbook.liquid}"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"panoply.liquid",
+			"jamesmaj.easy-icons",
+			"DavidAnson.vscode-markdownlint",
+			"redhat.vscode-yaml",
+		]
 	}
 }
