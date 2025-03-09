@@ -1117,7 +1117,11 @@ a.box-feed:active {
 .content li + li {
   margin-top: 0em; }
 
-
+.content li {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+}
 .content blockquote {
   background-color: var(--color-bg-main);
   border-left: 5px solid var(--color-border-light);
