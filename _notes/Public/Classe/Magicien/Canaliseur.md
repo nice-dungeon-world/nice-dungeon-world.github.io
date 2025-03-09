@@ -53,7 +53,7 @@ Vous êtes capable d'émettre une infime quantité de votre [[Élément primaire
 
 #### Humain
 
-Quand vous contrôlez un [[Élémentaire]], celui-ci inflige _+1d4_ [[Dégâts|]].
+Quand vous contrôlez un [[Élémentaire]], celui-ci inflige _+1d4_ [[Dégâts]].
 
 #### Elfe
 
@@ -73,7 +73,7 @@ Je perçois le potentiel brut de …
 
 ### Techniques
 
-Vous possédez des [[Techniques]] qui vous autorisent un contrôle limité sur le flot de votre magie. Quand vous consacrez plusieurs heures à développer un nouvelle [[Techniques|Technique]], ajoutez-la à votre liste ou remplacez l'une de vos techniques existantes. Vous pouvez apprendre jusqu'à 3 [[Techniques]]. En gardant à l'esprit votre [[Élément primaire]], nommez chaque [[Techniques]] et attribuez-leur deux marqueurs parmi :
+Vous possédez des [[Techniques]] qui vous autorisent un contrôle limité sur le flot de votre magie. Quand vous consacrez plusieurs heures à développer un nouvelle [[Techniques]], ajoutez-la à votre liste ou remplacez l'une de vos techniques existantes. Vous pouvez apprendre jusqu'à 3 [[Techniques]]. En gardant à l'esprit votre [[Élément primaire]], nommez chaque [[Techniques]] et attribuez-leur deux marqueurs parmi :
 
 - [[Projectile]]. 1d6 [[Dégâts]] à portée [[Proche]]
 - [[Explosion]]. 1d8 [[Dégâts]] à portée de [[Contact]]
