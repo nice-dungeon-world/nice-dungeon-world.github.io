@@ -9,9 +9,7 @@ date: 2025-02-27
 img: /assets/img/classes/magiciens/Canaliseur.png
 ---
 
-# Canaliseur
-
-![](/assets/img/classes/magiciens/Canaliseur.png)
+![Canaliseur flotant en l'air avec des flammes derrière](/assets/img/classes/magiciens/Canaliseur.png)
 
 Un canal de magie pure coule au fond de vous Par la maîtrise de votre corps, vous pouvez endurer l'écoulement de la magie élémentaire de votre canal à travers votre corps jusqu'à votre [[Point d'émanation]].
 Cette magie peut être extrêmement dangereuse pour vous ou l'environnement autour quand la magie vous submerge ou vous perdez le contrôle d'un [[Élémentaire]] invoqué.
@@ -126,6 +124,7 @@ Choisissez votre arme de rechange :
 - [[Bâton]] ([[Proche]], [[2 mains]], 1 [[Poids]])
 
 Choisissez un lot :
+
 - [[Armure de cuir]] (1 [[Armure]], [[Porté]], 1 [[Poids]])
 - 3 potions de soins (+10 [[PV]], 0 [[poids]])
 
