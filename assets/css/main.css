@@ -171,7 +171,7 @@ iframe,
 hr,
 {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 ul {
@@ -1139,12 +1139,15 @@ a.box-feed:active {
       list-style-type: upper-roman; }
 ol p {
         display: contents;
-    }      
+    }
 .content ul {
   list-style: inside;
-  margin-top: 1rem; 
+  margin-top: 1rem;
   padding-left: 0.4rem;
   margin-block: 0;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
   .content ul ul {
     list-style-type: ;
@@ -2507,7 +2510,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    
+
    }
     .navbar-menu.is-active {
       display: block; }
@@ -3855,7 +3858,7 @@ a.navbar-item,
 @media screen and (min-width: 769px), print {
   .section.is-note .column.is-primary-content,
     .note-page-section {
-      padding: 0rem; } 
+      padding: 0rem; }
   .note-cards .content {
     width: 88%; }
     }
@@ -3901,4 +3904,3 @@ a.tag:hover {
   input {
     color:(--color-text-sub) !important;
   }
-  
