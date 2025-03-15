@@ -1302,38 +1302,16 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 4rem 0 1rem 0;
-    position: relative;
-}
-
-footer > * {
-    align-self: center;
 }
 
 footer aside {
-    position: absolute;
-    right: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0;
-    padding: 0;
+    align-self: flex-end;
 }
 
 footer p {
     font-size: 0.7rem;
     font-weight: var(--text-weight-normal);
-    text-align: center;
-}
-
-
-#copyright {
-    margin: 4rem 0 1rem 0;
-}
-
-#copyright-notice {
-    font-size: 0.7rem;
-    font-weight: var(--text-weight-normal);
-    text-align: center;
+    margin-bottom: 0.25em;
 }
 
 #disqus_thread {
