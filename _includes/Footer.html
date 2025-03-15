@@ -21,8 +21,8 @@
   * This file contains the markup for the copyright notice.
 {%- endcomment -%}
 <footer>
+    <section >
   {%- if site.copyright.msg and site.copyright.msg != empty and site.copyright.msg != null -%}
-    <section id="copyright">
       <p id="copyright-notice">
         {{ site.copyright.year }}
         •
@@ -30,9 +30,7 @@
         •
         <a href="/credits">Credits</a>
       </p>
-    </section>
   {%- endif -%}
-  <section>
     <p>
       Powered by
       <a href="https://jekyll-garden.github.io/" target="_blank">
