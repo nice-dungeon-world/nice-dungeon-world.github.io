@@ -8,7 +8,7 @@
     ]
   ],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": true,
+  "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
@@ -23,8 +23,8 @@
       "template": "vault/templates/jdr/classes&metiers/__classe__.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "vault/zettelkasten",
+      "template": "_notes/300 Templates/__zettelkasten__.md"
     }
   ],
   "enable_file_templates": false,
