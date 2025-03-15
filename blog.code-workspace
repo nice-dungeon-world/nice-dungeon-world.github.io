@@ -12,7 +12,8 @@
 			"*.html": "liquid",
 			"*.js": "liquid-javascript",
 			"*.css": "liquid-css",
-			"*.scss": "liquid-scss"
+			"*.scss": "liquid-scss",
+			"*.xml": "liquid"
 		},
 		"markdownlint.lintWorkspaceGlobs": [
 			"**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
