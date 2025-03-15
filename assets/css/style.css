@@ -1,6 +1,6 @@
---- 
-layout: Stylesheet 
---- 
+---
+layout: Stylesheet
+---
 @import "fruity.css";
 
 
@@ -1297,6 +1297,16 @@ label.srs-toggle {
     display: none;
 }
 
+footer > section {
+    margin: 4rem 0 1rem 0;
+}
+footer > section > p {
+    font-size: 0.7rem;
+    font-weight: var(--text-weight-normal);
+    text-align: center;
+}
+
+
 #copyright {
     margin: 4rem 0 1rem 0;
 }
@@ -1593,6 +1603,3 @@ a[href^="http"] {
         padding-top: 2rem;
     }
 }
-
-
-
